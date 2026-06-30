@@ -1,4 +1,4 @@
-# fit5032-week1-lab
+# fsun-library
 
 This template should help get you started developing with Vue 3 in Vite.
 
