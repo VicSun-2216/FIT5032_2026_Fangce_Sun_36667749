@@ -9,6 +9,8 @@ import AccessDeniedView from '../views/AccessDeniedView.vue'
 import { auth } from '../firebase'
 import { authReady, loadUserRole } from '../auth'
 import AdminView from '../views/AdminView.vue'
+import AddBookView from '../views/AddBookView.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +28,11 @@ const router = createRouter({
       meta: {
         requiresAuth: true,
       },
+    },
+    {
+      path: '/addbook',
+      name: 'addbook',
+      component: AddBookView,
     },
     {
       path: '/admin',

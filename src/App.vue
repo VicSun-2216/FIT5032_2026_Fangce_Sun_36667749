@@ -40,6 +40,7 @@ const handleLogout = async () => {
           </span>
           <RouterLink to="/" class="btn btn-outline-primary"> Home </RouterLink>
 
+          <RouterLink to="/addbook" class="btn btn-outline-primary"> Add Book </RouterLink>
           <RouterLink to="/about" class="btn btn-outline-primary"> About </RouterLink>
           <RouterLink
             v-if="isAuthenticated && userRole === 'admin'"
