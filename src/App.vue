@@ -39,7 +39,13 @@ const handleLogout = async () => {
             {{ userRole }}
           </span>
           <RouterLink to="/" class="btn btn-outline-primary"> Home </RouterLink>
-
+          <RouterLink to="/CountBookAPI" class="btn btn-outline-primary">
+            Count Book API
+          </RouterLink>
+          <RouterLink to="/GetAllBookAPI" class="btn btn-outline-primary">
+            Get All Books
+          </RouterLink>
+          <RouterLink to="/WeatherCheck" class="btn btn-outline-primary"> Get Weather </RouterLink>
           <RouterLink to="/addbook" class="btn btn-outline-primary"> Add Book </RouterLink>
           <RouterLink to="/about" class="btn btn-outline-primary"> About </RouterLink>
           <RouterLink
