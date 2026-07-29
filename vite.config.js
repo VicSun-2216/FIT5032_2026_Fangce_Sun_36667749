@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/FIT5032_2026_Fangce_Sun_36667749/',
   plugins: [
     vue(),
     vueDevTools(),
